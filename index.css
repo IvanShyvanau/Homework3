@@ -60,3 +60,33 @@ h1{
   margin-left: 450px;
   margin-top: 20px;
  }
+
+.table{
+ border: 1px solid #000;
+ border-collapse: collapse;
+ margin-left: 510px;
+ margin-top: 50px;
+
+}
+
+td, th{
+  padding: 0;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+
+  
+}
+
+td{
+  border: 1px solid #000;
+  
+}
+
+#vertical{
+ transform: rotate(-90deg);
+}
+
+td .bold{
+  color: aqua;
+}

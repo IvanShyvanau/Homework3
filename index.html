@@ -25,12 +25,24 @@
   </header>
   <main class="main">
     <h1>Добро пожаловать в нашу парикмахерскую</h1>
-    <table>
+    <table class="table">
       <tr>
-        <td> Услуги парикмахерской</td>
+        <th colspan="5">Услуги парикмахерской</th> 
+      </tr>
+      <tr aria-rowspan="2">
+        <td id="vertical" rowspan="2">Название</td><td class="bold" colspan="2">Мужской</td><td class="bold" colspan="2">Женский</td>
+      </tr>
+      <tr>
+        <td id="bold">Стрижки</td><td id="bold">Прочее</td><td class="bold">Стрижки</td><td class="bold">Маникюр</td>
+      </tr>
+      <tr>
+        <td id="vertical" rowspan="2">Данные</td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr>
+        <td> </td><td> </td><td></td><td></td>
       </tr>
     </table>
   </main>
-  
+
 </body>
 </html>
