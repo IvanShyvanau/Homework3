@@ -45,6 +45,7 @@ body{
 
 a{
   text-decoration: none;
+  display: inline-block;
   font-size: 1.3rem;
   color: #000;
   font-family: 'Poppins', sans-serif;
@@ -54,6 +55,19 @@ a{
 a:hover{
   color: #fffff9;
   transition: all 0.3s ease-out;
+}
+
+.nav__item_active>.nav__link{
+  border-bottom: 1px solid #000;
+}
+
+.nav_vertical .nav__item{
+  display:block;
+  margin:0 0 10px 0;
+}
+
+.nav__link{
+  display: inline-block;
 }
  
 .main-title{
@@ -94,8 +108,8 @@ td{
  transform: rotate(-90deg);
 }
 
-td .bold{
-  color: aqua;
+.bold{
+  border: 2px solid #000;
 }
 
 
@@ -121,6 +135,10 @@ td .bold{
   transition: all 0.7s ease-out;
 }
 
+/*.footer-logo__link:visited{
+  color: #ff69;
+}*/
+
 .footer-title{
   margin-top: 20px;
   text-align: start;
@@ -141,6 +159,7 @@ td .bold{
   display:flex;
   align-items: center;
   margin-left: 40px;
+  cursor: pointer;
 }
 
 .footer-link{
