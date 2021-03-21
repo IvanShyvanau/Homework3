@@ -1,6 +1,8 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Grenze Gotisch', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -9,6 +11,7 @@ body{
 
 }
 
+/*меню навигации*/
 
 .wrapper{
   max-width: 1000px;
@@ -39,9 +42,6 @@ body{
   text-decoration: none;
 }
 
-li{
-  list-style-type: none;
-}
 
 a{
   text-decoration: none;
@@ -56,10 +56,17 @@ a:hover{
   transition: all 0.3s ease-out;
 }
  
-h1{
-  margin-left: 450px;
+.main-title{
+  margin-left: 550px;
   margin-top: 20px;
- }
+}
+
+/*Таблица*/
+
+li{
+  list-style-type: none;
+}
+
 
 .table{
  border: 1px solid #000;
@@ -90,3 +97,59 @@ td{
 td .bold{
   color: aqua;
 }
+
+
+/* footer */
+.horizontal-line{
+  border-bottom: 1px solid #000 ;
+  width: 700px;
+  margin-left: 405px;
+  margin-top: 30px;
+}
+
+.footer-logo{
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo__link{
+  font-family: 'Grenze Gotisch', cursive;
+  font-size: 4rem;
+}
+.footer-logo__link:hover{
+  color: #fffff9;
+  transition: all 0.7s ease-out;
+}
+
+.footer-title{
+  margin-top: 20px;
+  text-align: start;
+  margin-left: 60px;
+}
+
+.layout-2-column{
+  display: flex;
+  align-items: center;
+}
+
+.footer-contact-info{
+  display: flex;
+  align-items: center;
+}
+
+.footer__contact{
+  display:flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.footer-link{
+  margin-left: 5px;
+}
+
+.wrapeper__footer{
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 400px;
+}
+
